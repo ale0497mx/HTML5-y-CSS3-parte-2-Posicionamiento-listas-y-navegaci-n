@@ -1,0 +1,98 @@
+/* *{
+    height: auto;
+    margin: 0;
+    /* text-align: center; */
+header{
+    /* width: auto; */
+    background: rgb(239,239,239);
+    background: linear-gradient(0deg, rgba(239,239,239,1) 0%, rgba(194,163,255,1) 100%);
+    /* url("banner-vector.jpg"); */
+    background-size: 100%;
+    padding: 20px 0;
+    
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    
+    /* outline: 1px solid red; */
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    
+    color: #c78c19;
+    
+    text-decoration: underline;
+}
+.producto{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.producto > li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /* outline: 1px solid; */
+    /* border-color: darkslateblue; */
+    /* border-width: 2px; */
+    border-radius: 10% 0%;
+    /* border-style: solid; */
+    border: 1px solid darkslateblue;
+    border-top-width: 10px;
+
+    
+}
+.producto li:hover{
+    /* padding: 35px 22px; */
+    border-radius: 10% 0%;
+    /* border-style: solid; */
+    border: 1px solid #c78c19;
+    border-top-width: 10px;
+    
+}
+.producto > li:active{ /*con este elemento le diremos ue haga algo al elemento clicado como cambar el color*/
+    border: 1px solid green;
+    border-top-width: 10px;
+
+}
+.producto li:hover h2{
+    font-size: 33px;
+}
+.producto h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p-descripcion{
+    font-size: 18px;
+}
+
+.p-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
